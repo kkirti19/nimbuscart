@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+terraform.tfvars
+
+# AWS/private keys
+*.pem
+*.key
+.ssh/
+
+# OS/editor files
+.DS_Store
+*.swp

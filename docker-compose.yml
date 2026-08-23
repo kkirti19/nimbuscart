@@ -1,0 +1,31 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: nimbuscart-postgres
+    environment:
+      POSTGRES_DB: nimbuscart
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./app/api
+    container_name: nimbuscart-api
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: nimbuscart
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

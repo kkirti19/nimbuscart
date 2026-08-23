@@ -1,0 +1,9 @@
+aws_region   = "ap-southeast-2"
+project_name = "nimbuscart"
+
+key_name = "terraform-key"
+
+instance_type = "t3.micro"
+
+db_username = "nimbusadmin"
+db_password = "CHANGE_ME"
