@@ -1,0 +1,10 @@
+*.pem
+*.key
+.env
+credentials
+*.tfstate
+*.tfstate.*
+.terraform/
+trust.json
+users.csv
+employees.csv
