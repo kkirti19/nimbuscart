@@ -1,0 +1,18 @@
+{
+  "widgets":[
+    {
+      "type":"metric",
+      "x":0,"y":0,"width":12,"height":6,
+      "properties":{
+        "metrics":[
+          ["AWS/EC2","NetworkIn","InstanceId","i-09eb122f2dd50e809	i-04c2588c86371f207	i-08699feec36605341	i-09cba5e98aee7bbef	i-04b80496201425f2b	i-088bb212859367569"],
+          [".","NetworkOut",".",".","i-09eb122f2dd50e809	i-04c2588c86371f207	i-08699feec36605341	i-09cba5e98aee7bbef	i-04b80496201425f2b	i-088bb212859367569"]
+        ],
+        "period":300,
+        "stat":"Average",
+        "region":"ap-southeast-2",
+        "title":"EC2 Network Traffic"
+      }
+    }
+  ]
+}
