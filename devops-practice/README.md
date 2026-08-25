@@ -2,16 +2,22 @@
 
 ## Completed
 
-Linux: Q3 Q10 Q23 Q24
+Linux: 
 
-Regex: Q17 Q21 Q22
+Regex: 
 
-Bash: Q11 Q14 Q18
+Bash: 
 
-AWS IAM: Q26 Q29 Q30
+AWS IAM: 
 
-AWS EC2: Q32 Q37 Q38
+AWS EC2: 
 
-AWS S3: Q40 Q46 Q48
+AWS S3: 
 
-AWS VPC: Q41
+AWS VPC:
+
+AWS CLOUDWATCH/SNS
+
+AWS TERRAFORM
+
+AWS DOCKER
