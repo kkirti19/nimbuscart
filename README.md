@@ -53,6 +53,7 @@ nimbuscart/
 ├── docker-compose.yml
 ├── main.tf
 └── .gitignore
+```
 
 ## Infrastructure
 
@@ -88,6 +89,7 @@ docker build -t nimbuscart-api ./app/api
 docker compose up -d
 docker ps
 docker compose down
+```
 
 ## Terraform
 
@@ -176,6 +178,7 @@ The project includes:
 
 ```text
 terraform/script.sh
+```
 
 ## Version Control
 
@@ -185,20 +188,6 @@ Repository:
 
 https://github.com/kkirti19/nimbuscart
 
-## Technologies Used
-
-- AWS
-- Terraform
-- Docker
-- Docker Compose
-- Python
-- Flask
-- HTML
-- JavaScript
-- Linux
-- Shell Scripting
-- Git
-- GitHub
 
 ## Learning Outcomes
 
